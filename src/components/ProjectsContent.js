@@ -12,7 +12,7 @@ function ProjectsContent() {
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <div className="child1">
-                            <iframe src="./videos/CloudVend.mp4" width="100%" height="100%" type="video/mp4"/>
+                            <iframe src="./videos/CloudVend.mp4" title="CloudVend" width="100%" height="100%" type="video/mp4"/>
                         </div>
                         <div className="child2">
                         <h1 className="title">CloudVend</h1>
@@ -77,7 +77,7 @@ function ProjectsContent() {
                     </ul>
                     <ul className="cards__items">
                         <div className="child1">
-                            <iframe src="./videos/ThePath.mp4" width="100%" height="100%" type="video/mp4"/>
+                            <iframe src="./videos/ThePath.mp4" title="ThePath" width="100%" height="100%" type="video/mp4"/>
                         </div>
                         <div className="child2">
                         <h1 className="title">The Path</h1>
@@ -103,7 +103,7 @@ function ProjectsContent() {
                     </ul>
                     <ul className="cards__items">
                         <div className="child1">
-                            <iframe src="./videos/Baseball.mp4" width="100%" height="100%" type="video/mp4"/>
+                            <iframe src="./videos/Baseball.mp4" title="BaseballAggressiveAnalytics" width="100%" height="100%" type="video/mp4"/>
                         </div>
                         <div className="child2">
                         <h1 className="title">Baseball Aggressive Analytics</h1>
@@ -129,7 +129,7 @@ function ProjectsContent() {
                     </ul>
                     <ul className="cards__items">
                         <div className="child1">
-                            <iframe src="./videos/C++.mp4" width="100%" height="100%" type="video/mp4"/>
+                            <iframe src="./videos/C++.mp4" title="OSSimulator" width="100%" height="100%" type="video/mp4"/>
                         </div>
                         <div className="child2">
                         <h1 className="title">Operating System Simulator</h1>
@@ -147,7 +147,7 @@ function ProjectsContent() {
                     </ul>
                     <ul className="cards__items">
                         <div className="child1">
-                            <iframe src="./videos/Movie.mp4" width="100%" height="100%" type="video/mp4"/>
+                            <iframe src="./videos/Movie.mp4" title="MovieAPI" width="100%" height="100%" type="video/mp4"/>
                         </div>
                         <div className="child2">
                         <h1 className="title">Movie API</h1>

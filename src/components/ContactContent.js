@@ -1,4 +1,4 @@
-import React, {Text, View} from 'react';
+import React from 'react';
 import CardItem from './CardItem';
 
 function ContactContent() {
