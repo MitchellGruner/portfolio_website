@@ -65,3 +65,9 @@
   text-decoration: none;
   color: hsl(216, 100%, 61%);
 }
+
+@media (max-width:800px) {
+  .all_images {
+      width: 10%;
+  }
+}

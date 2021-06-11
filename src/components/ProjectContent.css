@@ -35,13 +35,14 @@
     margin-right: 40px;
     margin-bottom: 30px;
     clear: both;
-    width: 170%;
+    width: 100%;
   }
 
   .child2 {
     margin-left: 0px;
     overflow: auto;
     display: block;
+    width: 100%;
   }
 
   .child1_1 {
@@ -62,7 +63,7 @@
   }
   
   .cards__items {
-    margin-bottom: 24px;
+    margin-bottom: 50px;
   }
 
   .cards__items_1 {

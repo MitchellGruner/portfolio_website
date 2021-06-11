@@ -12,7 +12,7 @@ function ContactContent() {
                     <ul className="cards__items">
                         <div className="child1">
                             <CardItem 
-                            src="images/github.jpg"
+                            src="images/main.jpg"
                             />
                         </div>
                         <div className="child2">
