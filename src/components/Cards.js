@@ -1,6 +1,7 @@
 import React from 'react';
 import CardItem from './CardItem';
 import './Cards.css';
+import { Link } from 'react-router-dom';
 
 function Cards() {
     return (
@@ -42,7 +43,8 @@ function Cards() {
                         label="Movie API"
                         path="/projects"/>
                     </ul>
-                    <ul className="cards__items">
+                    <ul className="cards__items centered">
+                        
                     <Link to={{ pathname: "https://www.grunerwebdesign.com/" }}
                                     target='_blank' className="link-attributes">
                                 Gruner Web Design WordPress website
@@ -51,6 +53,7 @@ function Cards() {
                                     target='_blank' className="link-attributes">
                                 Foster's Tree Services WordPress website
                             </Link>
+                            
                     </ul>
                 </div>
             </div>

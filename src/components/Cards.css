@@ -17,6 +17,10 @@
     margin: 0 auto;
   }
 
+  .centered {
+    justify-content: center;
+  }
+
   .cards__container__1 {
     display: flex;
     flex-flow: column;
