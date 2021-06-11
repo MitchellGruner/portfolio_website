@@ -1,6 +1,7 @@
 import React from 'react';
 import CardItem from './CardItem';
 import { Link } from 'react-router-dom';
+import ReactPlayer from 'react-player';
 
 function ProjectsContent() {
     return (
@@ -12,7 +13,7 @@ function ProjectsContent() {
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <div className="child1">
-                            <iframe src="./videos/CloudVend.mp4" title="CloudVend" width="100%" height="100%" type="video/mp4"/>
+                            <ReactPlayer url="https://youtu.be/PF3A6o_ZkAc" width="100%" height="100%" controls={true} />
                         </div>
                         <div className="child2">
                         <h1 className="title">CloudVend</h1>
@@ -77,7 +78,7 @@ function ProjectsContent() {
                     </ul>
                     <ul className="cards__items">
                         <div className="child1">
-                            <iframe src="./videos/ThePath.mp4" title="ThePath" width="100%" height="100%" type="video/mp4"/>
+                            <ReactPlayer url="https://youtu.be/0ZhmxCtSjfw" width="100%" height="100%" controls={true} />
                         </div>
                         <div className="child2">
                         <h1 className="title">The Path</h1>
@@ -103,7 +104,7 @@ function ProjectsContent() {
                     </ul>
                     <ul className="cards__items">
                         <div className="child1">
-                            <iframe src="./videos/Baseball.mp4" title="BaseballAggressiveAnalytics" width="100%" height="100%" type="video/mp4"/>
+                            <ReactPlayer url="https://youtu.be/xojmvRTKvEg" width="100%" height="100%" controls={true} />
                         </div>
                         <div className="child2">
                         <h1 className="title">Baseball Aggressive Analytics</h1>
@@ -129,7 +130,7 @@ function ProjectsContent() {
                     </ul>
                     <ul className="cards__items">
                         <div className="child1">
-                            <iframe src="./videos/C++.mp4" title="OSSimulator" width="100%" height="100%" type="video/mp4"/>
+                            <ReactPlayer url="https://youtu.be/SekeIkN_UDE" width="100%" height="100%" controls={true} />
                         </div>
                         <div className="child2">
                         <h1 className="title">Operating System Simulator</h1>
@@ -138,8 +139,8 @@ function ProjectsContent() {
                             program and pass in commands through the command line.  Depending on what the user passes in, the
                             files on the user's computer will be altered (i.e. if the user types in 'mkdir hello', a new directory 
                             titled 'hello' will be present on the user's computer.
-                        </p>
-                        <Link to={{ pathname: "https://github.com/MitchellGruner/C-Operating-System-Simulator" }}
+                            </p>
+                            <Link to={{ pathname: "https://github.com/MitchellGruner/C-Operating-System-Simulator" }}
                                     target='_blank' className="link-attributes">
                                 Source Code
                             </Link>
@@ -147,7 +148,7 @@ function ProjectsContent() {
                     </ul>
                     <ul className="cards__items">
                         <div className="child1">
-                            <iframe src="./videos/Movie.mp4" title="MovieAPI" width="100%" height="100%" type="video/mp4"/>
+                            <ReactPlayer url="https://youtu.be/4eQHoETtT_k" width="100%" height="100%" controls={true} />
                         </div>
                         <div className="child2">
                         <h1 className="title">Movie API</h1>
