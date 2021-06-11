@@ -43,16 +43,14 @@ function Cards() {
                         path="/projects"/>
                     </ul>
                     <ul className="cards__items">
-                    <CardItem 
-                        src="images/LogoMakrSMALL.png"
-                        text="Gruner Web Design"
-                        label="Gruner Web Design"
-                        path="https://www.grunerwebdesign.com/"/>
-                        <CardItem 
-                        src="images/fosters.jpg"
-                        text="Example WordPress website"
-                        label="Foster's Tree Services"
-                        path="https://www.fosterstreeservices.com/"/>
+                    <Link to={{ pathname: "https://www.grunerwebdesign.com/" }}
+                                    target='_blank' className="link-attributes">
+                                Gruner Web Design WordPress website
+                            </Link>
+                            <Link to={{ pathname: "https://www.fosterstreeservices.com/" }}
+                                    target='_blank' className="link-attributes">
+                                Foster's Tree Services WordPress website
+                            </Link>
                     </ul>
                 </div>
             </div>
