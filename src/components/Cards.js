@@ -42,6 +42,18 @@ function Cards() {
                         label="Movie API"
                         path="/projects"/>
                     </ul>
+                    <ul className="cards__items">
+                    <CardItem 
+                        src="images/LogoMakrSMALL.png"
+                        text="Gruner Web Design"
+                        label="Gruner Web Design"
+                        path="https://www.grunerwebdesign.com/"/>
+                        <CardItem 
+                        src="images/fosters.jpg"
+                        text="Example WordPress website"
+                        label="Foster's Tree Services"
+                        path="https://www.fosterstreeservices.com/"/>
+                    </ul>
                 </div>
             </div>
         </div>
