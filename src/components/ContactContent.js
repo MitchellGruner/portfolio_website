@@ -16,10 +16,10 @@ function ContactContent() {
                             />
                         </div>
                         <div className="child2">
-                            <p className="marginPushDown">I am currently looking for a front-end software engineering
-                            role in a reputable company in the Nashville, Tennessee area.  I have plenty of experience 
+                            <p className="marginPushDown">I am currently looking for a front end software engineering
+                            role with a reputable company.  I have plenty of experience 
                             building and designing WordPress websites, as well as building websites from scratch (like 
-                            this one!).  I love to work with new people, as well as new technologies, in the computer 
+                            this one!).  I love to work with new people, as well as new technologies in the computer 
                             science industry.  
                             </p>
 
