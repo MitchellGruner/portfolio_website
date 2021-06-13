@@ -170,6 +170,51 @@ function ProjectsContent() {
                             </Link>
                         </div>
                     </ul>
+                    <ul className="cards__items">
+                        <div className="child1">
+                            <CardItem 
+                            src="images/logo.png"
+                            />
+                        </div>
+                        <div className="child2">
+                        <h1 className="title">Gruner Web Design</h1>
+                            <p className="marginPushDown">A WordPress website I created for my business where I provide WordPress 
+                                websites to small business owners.  I offered a package to transfer their information from their 
+                                current website to a WordPress website.  I would download WordPress on their current domain once the 
+                                process was completed, and push my WordPress website that I worked on from my local host to their 
+                                domain space.  I also would make the website mobile and tablet friendly, make it ADA compliant, back it up 
+                                weekly for six years, and install an SSL certificate.
+                            </p>
+                            <p className="marginPushDown">This website has several different pages, plugins, and themes that I installed
+                                using WordPress.  I was able to make it secure, make it ADA compliant, and also make it mobile and tablet 
+                                friendly.
+                            </p>
+                            <Link to={{ pathname: "https://www.grunerwebdesign.com/" }}
+                                    target='_blank' className="link-attributes">
+                                WordPress Website
+                            </Link>
+                        </div>
+                    </ul>
+                    <ul className="cards__items">
+                        <div className="child1">
+                            <CardItem 
+                            src="images/fosters.jpg"
+                            />
+                        </div>
+                        <div className="child2">
+                        <h1 className="title">Foster's Tree Services</h1>
+                            <p className="marginPushDown">A sample WordPress website I made for a fictional tree cutting company.  I created 
+                                this WordPress website during my senior year of college, and I wanted to use it to showcase my WordPress skills
+                                to potential clients in the industry.  This WordPress website has all of the plugins that exist within my other 
+                                WordPress website (e.g. is secure, ADA compliant, etc.).  It is important to note that both of these WordPress 
+                                websites use copyright-free content; they also offer a contact form that redirects to email address.
+                            </p>
+                            <Link to={{ pathname: "https://www.fosterstreeservices.com/" }}
+                                    target='_blank' className="link-attributes">
+                                WordPress Website
+                            </Link>
+                        </div>
+                    </ul>
                 </div>
             </div>
         </div>

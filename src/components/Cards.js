@@ -46,6 +46,7 @@ function Cards() {
                     <ul className="cards__items centered">
 
                     <center> 
+                    <h1 className="marginDown">WordPress Websites</h1>
                     <Link to={{ pathname: "https://www.grunerwebdesign.com/" }}
                                     target='_blank' className="link-attributes">
                                 Gruner Web Design
@@ -53,7 +54,7 @@ function Cards() {
 
                     <Link to={{ pathname: "https://www.fosterstreeservices.com/" }}
                                     target='_blank' className="link-attributes">
-                                Foster's Tree Service
+                                Foster's Tree Services
                     </Link>  
                     </center>   
                     </ul>

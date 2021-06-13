@@ -199,3 +199,7 @@
   color: hsl(216, 100%, 61%);
   transform: scale(1.05);
 }
+
+.marginDown {
+  margin-bottom: 15px;
+}
