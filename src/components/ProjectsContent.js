@@ -17,7 +17,7 @@ function ProjectsContent() {
                             <ReactPlayer url="https://youtu.be/PF3A6o_ZkAc" width="100%" height="100%" controls={true} />
                         </div>
                         <div className="child2">
-                        <h1 className="title">CloudVend</h1>
+                        <h1 className="title" id="CloudVend">CloudVend</h1>
                             <p className="marginPushDown">A full-stack web application that allows authenticated users to create 
                                 profiles, post descriptive items, and post comments on items.  
                                 Authenticated users can also edit and delete their own items and comments, 
@@ -47,7 +47,7 @@ function ProjectsContent() {
                             <ReactPlayer url="https://youtu.be/sZyEqZzVrc8" width="100%" height="100%" controls={true} />
                         </div>
                         <div className="child2">
-                        <h1 className="title">Mobile Learning App</h1>
+                        <h1 className="title" id="MobileLearningApp">Mobile Learning App</h1>
                             <p className="marginPushDown">A React Native application that allows “Subject Matter Experts” (SME) 
                                 to post courses, videos, lecture notes, and quizzes to students who are 
                                 currently enrolled in their course.  This application implements the Firebase 
@@ -78,7 +78,7 @@ function ProjectsContent() {
                             <ReactPlayer url="https://youtu.be/0ZhmxCtSjfw" width="100%" height="100%" controls={true} />
                         </div>
                         <div className="child2">
-                        <h1 className="title">The Path</h1>
+                        <h1 className="title" id="ThePath">The Path</h1>
                             <p className="marginPushDown">An Object-Oriented Programming in Java application that allows 
                                 users to control an “ant” that must evade “spiders” in the game world.  
                                 The user must collide with “flags” and “food stations” in order to 
@@ -104,7 +104,7 @@ function ProjectsContent() {
                             <ReactPlayer url="https://youtu.be/xojmvRTKvEg" width="100%" height="100%" controls={true} />
                         </div>
                         <div className="child2">
-                        <h1 className="title">Baseball Aggressive Analytics</h1>
+                        <h1 className="title" id="BaseballAggressiveAnalytics">Baseball Aggressive Analytics</h1>
                             <p className="marginPushDown">A data analytics project that implements statistical concepts on a 
                                 large data set to 
                                 prove that players have become more aggressive over time.  This project was built using
@@ -130,7 +130,7 @@ function ProjectsContent() {
                             <ReactPlayer url="https://youtu.be/SekeIkN_UDE" width="100%" height="100%" controls={true} />
                         </div>
                         <div className="child2">
-                        <h1 className="title">Operating System Simulator</h1>
+                        <h1 className="title" id="OperatingSystemSimulator">Operating System Simulator</h1>
                             <p className="marginPushDown">A C++ application that allows the user to use a set of predefined 
                             linux commands, such as ‘touch’, ‘ls’, and ‘cd’, to emulate a working OS.  The user will start the
                             program and pass in commands through the command line.  Depending on what the user passes in, the
@@ -148,7 +148,7 @@ function ProjectsContent() {
                             <ReactPlayer url="https://youtu.be/4eQHoETtT_k" width="100%" height="100%" controls={true} />
                         </div>
                         <div className="child2">
-                        <h1 className="title">Movie API</h1>
+                        <h1 className="title" id="MovieAPI">Movie API</h1>
                             <p className="marginPushDown">A web application that prompts the user to enter a movie 
                                 (or video game/tv series) and will
                                 return instances of whatever the user passes.  More than one movie/video game/tv series may

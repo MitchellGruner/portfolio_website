@@ -2,6 +2,7 @@ import React from 'react';
 import CardItem from './CardItem';
 import './Cards.css';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 function Cards() {
     return (
@@ -14,7 +15,7 @@ function Cards() {
                         src="images/CloudVend.png"
                         text="A full-stack web application"
                         label="CloudVend"
-                        path="/projects"/>
+                        />
                         <CardItem 
                         src="images/MobileLearningApp.png"
                         text="An educational mobile app"
