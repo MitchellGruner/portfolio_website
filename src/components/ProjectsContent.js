@@ -43,12 +43,8 @@ function ProjectsContent() {
                         </div>
                     </ul>
                     <ul className="cards__items">
-                        <div className="child1">
-                            <CardItem 
-                            src="images/MobileLearningApp.png"
-                            text="An educational mobile app"
-                            label="Mobile Learning App"
-                            path="/projects"/>
+                    <div className="child1">
+                            <ReactPlayer url="https://youtu.be/sZyEqZzVrc8" width="100%" height="100%" controls={true} />
                         </div>
                         <div className="child2">
                         <h1 className="title">Mobile Learning App</h1>
