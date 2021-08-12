@@ -26,7 +26,7 @@ function ContactContent() {
                             <h1 className="marginPushDown title">Skills</h1>
 
                             <ul>
-                              <li>UI and UX framework knowledge (BootStrap, React.js, React Native</li>
+                              <li>UI and UX framework knowledge (BootStrap, React.js, React Native)</li>
                               <li>Strong HTML, CSS, and JavaScript skills</li>
                               <li>Knowledge of Java and Java Swing</li>
                               <li>Back-end programming experience using MongoDB, SQL, Express.js, and Node.js</li>
