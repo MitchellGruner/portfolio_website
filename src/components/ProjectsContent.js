@@ -168,6 +168,29 @@ function ProjectsContent() {
                     </ul>
                     <ul className="cards__items">
                         <div className="child1">
+                            <ReactPlayer url="https://youtu.be/4eQHoETtT_k" width="100%" height="100%" controls={true} />
+                        </div>
+                        <div className="child2">
+                        <h1 className="title" id="Hangman">Hangman!</h1>
+                            <p className="marginPushDown">A vanilla JavaScript that implements HTML and CSS, as well as the 
+                            Bootstrap Framework, that allows end-users to guess letters that are located within a randomly picked 
+                            word from a pre-defined array.  The user can have hints displayed to them, but they all cost the user 
+                            time - once the time runs out, the game is over.  If the user runs out of lives, the game is over.
+                            </p>
+                            <p className="marginPushDown">Uses JavaScript, HTML, CSS, and Bootstrap.
+                            </p>
+                            <Link to={{ pathname: "https://clever-galileo-8dbff3.netlify.app/" }}
+                                    target='_blank' className="link-attributes">
+                                View Project
+                            </Link>
+                            <Link to={{ pathname: "https://github.com/MitchellGruner/Hangman" }}
+                                    target='_blank' className="link-attributes">
+                                Source Code
+                            </Link>
+                        </div>
+                    </ul>
+                    <ul className="cards__items">
+                        <div className="child1">
                             <CardItem 
                             src="images/logo.png"
                             />

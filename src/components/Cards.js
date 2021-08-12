@@ -42,6 +42,11 @@ function Cards() {
                         text="An app that searches an API for relevant movies"
                         label="Movie API"
                         path="/projects"/>
+                        <CardItem
+                        src="images/hangman.jpg"
+                        text="A hangman game with a timer"
+                        label="Hangman!"
+                        path="/projects"/>
                     </ul>
                     <ul className="cards__items centered">
 
