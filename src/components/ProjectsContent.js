@@ -100,7 +100,7 @@ function ProjectsContent() {
                     </ul>
                     <ul className="cards__items">
                         <div className="child1">
-                            
+                            <ReactPlayer url="https://youtu.be/M-pCWe8rcik" width="100%" height="100%" controls={true} />
                         </div>
                         <div className="child2">
                         <h1 className="title" id="Hangman">Hangman!</h1>
