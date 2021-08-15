@@ -203,3 +203,11 @@
 .marginDown {
   margin-bottom: 15px;
 }
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}

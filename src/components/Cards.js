@@ -51,14 +51,14 @@ function Cards() {
 
                     <center> 
                     <h1 className="marginDown">WordPress Websites</h1>
-                    <div style="float-left;">
+                    <div class="left">
                     <CardItem
                         src="images/logo.png"
                         text="Gruner Web Design"
                         label="Gruner Web Design"
                         path="/projects"/>
                     </div>
-                    <div style="float-right;">
+                    <div class="right">
                     <CardItem
                         src="images/fosters.jpg"
                         text="Foster's Tree Service"
