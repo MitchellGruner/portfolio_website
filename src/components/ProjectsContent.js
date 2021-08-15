@@ -191,9 +191,7 @@ function ProjectsContent() {
                     </ul>
                     <ul className="cards__items">
                         <div className="child1">
-                            <CardItem 
-                            src="images/logo.png"
-                            />
+                            <ReactPlayer url="https://youtu.be/vpR7FDxPllU" width="100%" height="100%" controls={true} />
                         </div>
                         <div className="child2">
                         <h1 className="title">Gruner Web Design</h1>
@@ -208,17 +206,11 @@ function ProjectsContent() {
                                 using WordPress.  I was able to make it secure, make it ADA compliant, and also make it mobile and tablet 
                                 friendly.
                             </p>
-                            <Link to={{ pathname: "https://www.grunerwebdesign.com/" }}
-                                    target='_blank' className="link-attributes">
-                                WordPress Website
-                            </Link>
                         </div>
                     </ul>
                     <ul className="cards__items">
                         <div className="child1">
-                            <CardItem 
-                            src="images/fosters.jpg"
-                            />
+                            <ReactPlayer url="https://youtu.be/tCh0Z8hlFbE" width="100%" height="100%" controls={true} />
                         </div>
                         <div className="child2">
                         <h1 className="title">Foster's Tree Services</h1>
@@ -228,10 +220,6 @@ function ProjectsContent() {
                                 WordPress website (e.g. is secure, ADA compliant, etc.).  It is important to note that both of these WordPress 
                                 websites use copyright-free content; they also offer a contact form that redirects to email address.
                             </p>
-                            <Link to={{ pathname: "https://www.fosterstreeservices.com/" }}
-                                    target='_blank' className="link-attributes">
-                                WordPress Website
-                            </Link>
                         </div>
                     </ul>
                 </div>
