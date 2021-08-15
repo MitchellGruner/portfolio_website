@@ -1,5 +1,4 @@
 import React from 'react';
-import CardItem from './CardItem';
 import { Link } from 'react-router-dom';
 import ReactPlayer from 'react-player';
 import './ProjectContent.css';
