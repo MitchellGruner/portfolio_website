@@ -104,10 +104,10 @@ function ProjectsContent() {
                         </div>
                         <div className="child2">
                         <h1 className="title" id="Hangman">Hangman!</h1>
-                            <p className="marginPushDown">A vanilla JavaScript that implements HTML and CSS, as well as the 
-                            Bootstrap Framework, that allows end-users to guess letters that are located within a randomly picked 
-                            word from a pre-defined array.  The user can have hints displayed to them, but they all cost the user 
-                            time - once the time runs out, the game is over.  If the user runs out of lives, the game is over.
+                            <p className="marginPushDown">A vanilla JavaScript application that implements HTML and CSS, as well as the 
+                            Bootstrap framework, that allows end-users to guess letters that are located within a randomly picked 
+                            word from a pre-defined array.  The user may have hints displayed to them, but they all cost the user 
+                            time - once the time runs out, the game is over.  If the user runs out of lives, the game is also over.
                             </p>
                             <p className="marginPushDown">Uses JavaScript, HTML, CSS, and Bootstrap.
                             </p>
