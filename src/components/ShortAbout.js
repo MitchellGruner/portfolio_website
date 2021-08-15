@@ -15,7 +15,7 @@ function ShortAbout() {
                                     California State University, Sacramento with a Bachelor of Science in Computer Science degree.
                                     In my final semester of school, while I was taking online classes due to the pandemic, I was
                                     fortunate enough to have the opportunity to move to Nashville, Tennessee - This was
-                                    a dramatic change for me, since I have lived near Sacramento, California my entire life.
+                                    a dramatic change for me, since I have lived near Sacramento, California my entire life.<br/>
                                     While being a full-time student, I was also able to create some<Link to="/projects" 
                                     className="link-attributes">side projects</Link>that I am very proud of.
                                 </p>
