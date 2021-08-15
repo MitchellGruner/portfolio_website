@@ -27,6 +27,11 @@ function Cards() {
                         path="/projects"/>
                     </ul>
                     <ul className="cards__items">
+                    <CardItem
+                        src="images/hangman.jpg"
+                        text="A hangman game with a timer"
+                        label="Hangman!"
+                        path="/projects"/>
                     <CardItem 
                         src="images/AggressiveBaseball.png"
                         text="A program that showes hitter trends"
@@ -42,25 +47,21 @@ function Cards() {
                         text="An app that searches an API for relevant movies"
                         label="Movie API"
                         path="/projects"/>
-                        <CardItem
-                        src="images/hangman.jpg"
-                        text="A hangman game with a timer"
-                        label="Hangman!"
-                        path="/projects"/>
                     </ul>
                     <ul className="cards__items centered">
 
                     <center> 
                     <h1 className="marginDown">WordPress Websites</h1>
-                    <Link to={{ pathname: "https://www.grunerwebdesign.com/" }}
-                                    target='_blank' className="link-attributes">
-                                Gruner Web Design
-                    </Link>
-
-                    <Link to={{ pathname: "https://www.fosterstreeservices.com/" }}
-                                    target='_blank' className="link-attributes">
-                                Foster's Tree Services
-                    </Link>  
+                    <CardItem
+                        src="images/logo.png"
+                        text="Gruner Web Design"
+                        label="Gruner Web Design"
+                        path="/projects"/>
+                    <CardItem
+                        src="images/fosters.jpg"
+                        text="Foster's Tree Service"
+                        label="Foster's Tree Service"
+                        path="/projects"/>
                     </center>   
                     </ul>
                 </div>

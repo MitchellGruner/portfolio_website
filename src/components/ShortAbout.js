@@ -11,17 +11,13 @@ function ShortAbout() {
             <h2>About Me</h2>
                 <div className="cards__container">
                     <div className="cards__wrapper">
-                                <p className="marginPushDown">Hello!  My name is Mitchell Gruner and I recently graduated from
-                                    California State University, Sacramento with my Bachelor of Science in Computer Science degree.
+                                <p className="marginPushDown">Hello!  My name is Mitchell Gruner and I graduated from
+                                    California State University, Sacramento with a Bachelor of Science in Computer Science degree.
                                     In my final semester of school, while I was taking online classes due to the pandemic, I was
-                                    fortunate enough to have the opportunity to move to Nashville, Tennessee; this was
+                                    fortunate enough to have the opportunity to move to Nashville, Tennessee - This was
                                     a dramatic change for me, since I have lived near Sacramento, California my entire life.
                                     While being a full-time student, I was also able to create some<Link to="/projects" 
-                                    className="link-attributes">side projects</Link>that I am very proud of, and start my own
-                                    <Link to={{ pathname: "https://www.grunerwebdesign.com/" }}
-                                        target='_blank' className="link-attributes">
-                                    web design business</Link>where I provide WordPress websites to business owners who need 
-                                    their website updated.
+                                    className="link-attributes">side projects</Link>that I am very proud of.
                                 </p>
 
                                 <p className="marginPushDown">While in school, I finished with an overall GPA of 3.30, a GPA of
