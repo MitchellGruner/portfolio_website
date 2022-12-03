@@ -39,6 +39,21 @@ video {
 
 .hero-btns .btn {
     margin: 6px;
+    transition: 0.5s ease-in-out;
+}
+
+.hero-btns .btn,
+.hero-btns .btn:hover,
+.hero-btns .btn .no_text_decoration_1 {
+    transition: 0.5s ease-in-out;
+}
+
+.hero-btns .btn:hover {
+    background-color: #fff;
+}
+
+.hero-btns .btn:hover .no_text_decoration_1 {
+    color: #000;
 }
 
 .fa-play-circle {
