@@ -164,6 +164,7 @@
 
   .marginPushDown {
     margin-bottom: 40px;
+    text-align: left !important;
   }
 
   .link-attributes {
