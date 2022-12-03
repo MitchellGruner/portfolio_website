@@ -13,7 +13,13 @@ function Cards() {
                         src="images/CloudVend.png"
                         text="A full-stack web application"
                         label="CloudVend"
+                        path="/projects"
                         />
+                        <CardItem 
+                        src="images/MobileLearningApp.png"
+                        text="A Quiz-like game"
+                        label="Mobile Learning App"
+                        path="/projects"/>
                         <CardItem 
                         src="images/MobileLearningApp.png"
                         text="An educational mobile app"
