@@ -11,7 +11,26 @@ function ProjectsContent() {
             <div className="cards">
             <div className="cards__container__1">
                 <div className="cards__wrapper">
-                    <ul className="cards__items">
+                    <ul id="QuizList" className="cards__items">
+                        <div className="child1">
+                            <ReactPlayer url="https://youtu.be/0AWLYyrbZ-Y" width="100%" height="100%" controls={true} />
+                        </div>
+                        <div className="child2">
+                        <h1 className="title" id="CloudVend">QuizList</h1>
+                        <p className="marginPushDown">A Quiz-like game created using React.js that allows users to guess an answer to a question in an accordion-style dropdown.  If the answer is correct, the user is allowed to continue playing and try to beat their high score.  If a question is not correctly answered, the game is over and their score gets set to zero. The high score is set using local storage, so no matter how many times the page is refreshed, the high score stays the same (until it is replaced with a higher score).</p>
+
+                        <p className="marginPushDown">The accordion element is also removed if the question is correctly answered. The web application is fully-responsive, and has a game over screen in place.</p>
+                            {/* <Link to={{ pathname: "https://sheltered-peak-30121.herokuapp.com/" }}
+                                    target='_blank' className="link-attributes">
+                                View Project
+                            </Link> */}
+                            <Link to={{ pathname: "https://github.com/MitchellGruner/QuizList" }}
+                                    target='_blank' className="link-attributes">
+                                Source Code
+                            </Link>
+                        </div>
+                    </ul>
+                    <ul id="CloudVend" className="cards__items">
                         <div className="child1">
                             <ReactPlayer url="https://youtu.be/PF3A6o_ZkAc" width="100%" height="100%" controls={true} />
                         </div>
@@ -41,8 +60,8 @@ function ProjectsContent() {
                             </Link>
                         </div>
                     </ul>
-                    <ul className="cards__items">
-                    <div className="child1">
+                    <ul id="MobileLearningApp" className="cards__items">
+                        <div className="child1">
                             <ReactPlayer url="https://youtu.be/sZyEqZzVrc8" width="100%" height="100%" controls={true} />
                         </div>
                         <div className="child2">
@@ -72,7 +91,7 @@ function ProjectsContent() {
                             </Link>
                         </div>
                     </ul>
-                    <ul className="cards__items">
+                    <ul id="ThePath" className="cards__items">
                         <div className="child1">
                             <ReactPlayer url="https://youtu.be/0ZhmxCtSjfw" width="100%" height="100%" controls={true} />
                         </div>
@@ -98,7 +117,7 @@ function ProjectsContent() {
                             </Link>
                         </div>
                     </ul>
-                    <ul className="cards__items">
+                    <ul id="Hangman" className="cards__items">
                         <div className="child1">
                             <ReactPlayer url="https://youtu.be/M-pCWe8rcik" width="100%" height="100%" controls={true} />
                         </div>
@@ -121,7 +140,7 @@ function ProjectsContent() {
                             </Link>
                         </div>
                     </ul>
-                    <ul className="cards__items">
+                    <ul id="BaseballAggressiveAnalytics" className="cards__items">
                         <div className="child1">
                             <ReactPlayer url="https://youtu.be/xojmvRTKvEg" width="100%" height="100%" controls={true} />
                         </div>
@@ -147,7 +166,7 @@ function ProjectsContent() {
                             </Link>
                         </div>
                     </ul>
-                    <ul className="cards__items">
+                    <ul id="OperatingSystemSimulator" className="cards__items">
                         <div className="child1">
                             <ReactPlayer url="https://youtu.be/SekeIkN_UDE" width="100%" height="100%" controls={true} />
                         </div>
@@ -165,7 +184,7 @@ function ProjectsContent() {
                             </Link>
                         </div>
                     </ul>
-                    <ul className="cards__items">
+                    <ul id="MovieAPI" className="cards__items">
                         <div className="child1">
                             <ReactPlayer url="https://youtu.be/4eQHoETtT_k" width="100%" height="100%" controls={true} />
                         </div>
