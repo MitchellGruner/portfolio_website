@@ -86,3 +86,74 @@ video {
         width: 100%;
     }
 }
+
+/* new css */
+@media (max-width: 399px) {
+    .hero-container > h1 {
+        font-size: 2.4em;
+    }
+
+    .hero-container > p {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 400px) {
+    .hero-container > h1 {
+        font-size: 3.3em;
+    }
+
+    .hero-container > p {
+        font-size: 1.3em;
+    }
+}
+
+@media (min-width: 576px) {
+    .hero-container > h1 {
+        font-size: 3.6em;
+    }
+
+    .hero-container > p {
+        font-size: 1.4em;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-container > h1 {
+        font-size: 3.9em;
+    }
+
+    .hero-container > p {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero-container > h1 {
+        font-size: 4.3em;
+    }
+
+    .hero-container > p {
+        font-size: 1.6em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero-container > h1 {
+        font-size: 4.7em;
+    }
+
+    .hero-container > p {
+        font-size: 1.7em;
+    }
+}
+
+@media (min-width: 1400px) {
+    .hero-container > h1 {
+        font-size: 5.2em;
+    }
+
+    .hero-container > p {
+        font-size: 1.8em;
+    }
+}
