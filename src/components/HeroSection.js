@@ -8,8 +8,8 @@ function HeroSection() {
     return (
         <div className='hero-container'>
             <video src='./videos/video-1.mp4' autoPlay loop muted />
-            <h1>Mitchell Gruner</h1>
-            <p>Front End Developer | Electronic Express</p>
+            <h1 className="HeroSection-header">Mitchell Gruner</h1>
+            <p className="HeroSection-paragraph">Front End Developer | Electronic Express</p>
             <div className="hero-btns">
                 <Button className='btns' buttonStyle='btn--outline'
                 buttonSize='btn--large'><Link to="/contact" className="no_text_decoration_1">CONTACT</Link></Button>
