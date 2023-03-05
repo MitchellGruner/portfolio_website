@@ -16,22 +16,19 @@ function ContactContent() {
                             />
                         </div>
                         <div className="child2">
-                            <p className="marginPushDown">I am currently looking for a front end software engineering
-                            role with a reputable company.  I have plenty of experience 
-                            building and designing WordPress websites, as well as building websites from scratch (like 
-                            this one!).  I love to work with new people, as well as new technologies in the computer 
-                            science industry.  
+                            <p className="marginPushDown">My time at Electronic Express has been nothing short of wonderful; from my relationships with my coworkers, upper-management, and the work I do on a daily basis, I am extremely grateful and privileged to work here. With that being said, I am always open to new opportunities and experiences, and would gladly communicate with anyone that thinks I am a good fit for their company. I am truly passionate about keeping up with the latest technologies, and I enjoy coding both professionaly and recreationally. 
                             </p>
 
                             <h1 className="marginPushDown title">Skills</h1>
 
                             <ul>
-                              <li>UI and UX framework knowledge (BootStrap, React.js, React Native)</li>
                               <li>Strong HTML, CSS, and JavaScript skills</li>
-                              <li>Knowledge of Java and Java Swing</li>
+                              <li>Experience communicating one-on-one and working with clients</li>
+                              <li>UI and UX framework knowledge (BootStrap, React.js, React Native)</li>
+                              <li>Professional experience with jQuery and AJAX calls.</li>
                               <li>Back-end programming experience using MongoDB, SQL, Express.js, and Node.js</li>
                               <li>Git and GitHub experience</li>
-                              <li>Designed WordPress websites</li>
+                              <li>Working knowledge of Wordpress and Shopify</li>
                             </ul>
                         </div>
                     </ul>

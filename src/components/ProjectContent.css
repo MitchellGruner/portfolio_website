@@ -1,5 +1,5 @@
 .cards {
-    padding: 4rem;
+    padding: 1rem;
     background: #fff;
     margin-top: -100px;
   }
@@ -141,7 +141,6 @@
   
   .cards__item__text {
     color: #252e48;
-    font-size: 18px;
     line-height: 24px;
   }
   
@@ -199,4 +198,35 @@
   margin-top: -45px;
   color: hsl(216, 100%, 61%);
   transform: scale(1.05);
+}
+
+/* new css */
+@media (max-width: 399px) {
+
+}
+
+@media (min-width: 400px) {
+
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+  .cards__item__text {
+    font-size: 18px;
+  }
 }

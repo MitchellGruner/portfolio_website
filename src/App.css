@@ -22,7 +22,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    font-size: 100px;
   }
   
   .projects {
@@ -31,7 +30,6 @@
     background-size: fill;
     background-repeat: no-repeat;
     color: #fff;
-    font-size: 100px;
   }
   
   .resume {
@@ -69,5 +67,54 @@
 @media (max-width:800px) {
   .all_images {
       width: 10%;
+  }
+}
+
+@media (max-width: 399px) {
+  .projects,
+  .contact {
+    font-size: 2.2em;
+  }
+}
+
+@media (min-width: 400px) {
+  .projects,
+  .contact {
+    font-size: 3.3em;
+  }
+}
+
+@media (min-width: 576px) {
+  .projects,
+  .contact {
+    font-size: 3.6em;
+  }
+}
+
+@media (min-width: 768px) {
+  .projects,
+  .contact {
+    font-size: 3.9em;
+  }
+}
+
+@media (min-width: 992px) {
+  .projects,
+  .contact {
+    font-size: 4.3em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .projects,
+  .contact {
+    font-size: 4.7em;
+  }
+}
+
+@media (min-width: 1400px) {
+  .projects,
+  .contact {
+    font-size: 5.2em;
   }
 }

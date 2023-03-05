@@ -1,5 +1,5 @@
 .cards {
-    padding: 4rem;
+    padding: 1rem;
     background: #fff;
     margin-top: -100px;
   }
@@ -164,6 +164,7 @@
 
   .marginPushDown {
     margin-bottom: 40px;
+    text-align: left !important;
   }
 
   .link-attributes {
@@ -210,4 +211,146 @@
 
 .right {
   float: right;
+}
+
+.cards > h2 {
+  text-align: center;
+}
+
+/* new css */
+@media (max-width: 399px) {
+  .cards > h2 {
+    font-size: 1.4em;
+    margin-top: 1em;
+  }
+
+  .cards__wrapper > .marginPushDown {
+    font-size: 0.73em;
+  }
+
+  .cards__items .marginPushDown {
+    font-size: 0.73em;
+  }
+
+  .link-attributes {
+    font-size: 0.73em;
+  }
+}
+
+@media (min-width: 400px) {
+  .cards > h2 {
+    font-size: 1.5em;
+    margin-top: 1em;
+  }
+
+  .cards__wrapper > .marginPushDown {
+    font-size: 0.73em;
+  }
+
+  .cards__items .marginPushDown {
+    font-size: 0.81em;
+  }
+
+  .link-attributes {
+    font-size: 0.81em;
+  }
+}
+
+@media (min-width: 576px) {
+  .cards > h2 {
+    font-size: 1.6em;
+    margin-top: 1.1em;
+  }
+
+  .cards__wrapper > .marginPushDown {
+    font-size: 0.81em;
+  }
+
+  .cards__items .marginPushDown {
+    font-size: 0.9em;
+  }
+
+  .link-attributes {
+    font-size: 0.9em;
+  }
+}
+
+@media (min-width: 768px) {
+  .cards > h2 {
+    font-size: 1.7em;
+    margin-top: 1.2em;
+  }
+
+  .cards__wrapper > .marginPushDown {
+    font-size: 0.9em;
+  }
+
+  .cards__items .marginPushDown {
+    font-size: 0.9em;
+  }
+
+  .link-attributes {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 992px) {
+  .cards > h2 {
+    font-size: 1.8em;
+    margin-top: 1.3em;
+  }
+
+  .cards__wrapper > .marginPushDown {
+    font-size: 1em;
+  }
+
+  .cards__items .marginPushDown {
+    font-size: 0.9em;
+  }
+
+  .link-attributes {
+    font-size: 1.1em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cards > h2 {
+    font-size: 2em;
+    margin-top: 1.4em;
+  }
+
+  .cards__wrapper > .marginPushDown {
+    font-size: 1.1em;
+  }
+
+  .cards__items .marginPushDown {
+    font-size: 1em;
+  }
+
+  .link-attributes {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 1400px) {
+  .cards > h2 {
+    font-size: 2.2em;
+    margin-top: 1.5em;
+  }
+
+  .cards__wrapper > .marginPushDown {
+    font-size: 1.2em;
+  }
+
+  .cards__items .title {
+    font-size: 2.4em;
+  }
+
+  .cards__items .marginPushDown {
+    font-size: 1.1em;
+  }
+
+  .link-attributes {
+    font-size: 1.1em;
+  }
 }
