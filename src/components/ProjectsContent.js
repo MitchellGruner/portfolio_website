@@ -20,10 +20,10 @@ function ProjectsContent() {
                         <p className="marginPushDown">A Quiz-like game created using React.js that allows users to guess an answer to a question in an accordion-style dropdown.  If the answer is correct, the user is allowed to continue playing and try to beat their high score.  If a question is not correctly answered, the game is over and their score gets set to zero. The high score is set using local storage, so no matter how many times the page is refreshed, the high score stays the same (until it is replaced with a higher score).</p>
 
                         <p className="marginPushDown">The accordion element is also removed if the question is correctly answered. The web application is fully-responsive, and has a game over screen in place.</p>
-                            {/* <Link to={{ pathname: "https://sheltered-peak-30121.herokuapp.com/" }}
+                            <Link to={{ pathname: "https://master--vermillion-narwhal-b9ab97.netlify.app/" }}
                                     target='_blank' className="link-attributes">
                                 View Project
-                            </Link> */}
+                            </Link>
                             <Link to={{ pathname: "https://github.com/MitchellGruner/QuizList" }}
                                     target='_blank' className="link-attributes">
                                 Source Code
